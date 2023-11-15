@@ -2,7 +2,7 @@
 using ClassTestNamespace;
 
 Console.WriteLine("Hello, World!");
-ClassTest a = new ClassTest();
+ClassTest a = new ClassTest("Joseph");
 a.Test();
 
 // variables test
