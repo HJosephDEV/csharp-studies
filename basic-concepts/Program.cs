@@ -1,9 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ClassTestNamespace;
+﻿using ClassTestNamespace;
+using ClassTest2Namespace;
 
 Console.WriteLine("Hello, World!");
+
 ClassTest a = new ClassTest("Joseph");
 a.Test();
+
+ClassTest2 b = new ClassTest2();
+b.ShowFullName();
+b.FirstName = "Haase";
+b.LastName = "Joseph";
+b.ShowFullName();
 
 // variables test
 char letter = 'w';
